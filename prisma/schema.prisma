@@ -26,7 +26,6 @@ model User {
   followingIds String[] @db.ObjectId
   hasNotification Boolean?
 
-  // @relation("UserFollows", references: [id])
   posts Post[]
   comments Comment[]
   notifications Notification[]
