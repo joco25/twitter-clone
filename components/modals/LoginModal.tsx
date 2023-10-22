@@ -53,7 +53,7 @@ const LoginModal = () => {
   const footerContent = (
     <div className='text-neutral-400 text-center mt-4'>
       <p>
-        First time using jitter?{' '}
+        First time using Twitter?{' '}
         <span
           onClick={onToggle}
           className='text-white cursor-pointer hover:underline'
