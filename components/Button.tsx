@@ -25,7 +25,7 @@ const Button: React.FC<ButtonProps> = ({
       ${
         secondary
           ? 'bg-white text-black border-black'
-          : 'bg-sky-500 text-white border-sky-500'
+          : 'bg-rose-500 text-white border-rose-500'
       }
       ${large ? 'px-5 py-3 text-xl' : 'px-4 py-2 text-md'}
       ${outline && 'bg-transparent border-white text-white'}

@@ -17,7 +17,7 @@ const FollowBar = () => {
                 <p className='text-white font-semibold text-xl'>{user.name}</p>
                 <p className='text-neutral-400 text-sm'>@{user.username}</p>
               </div>
-              {/* <button className='px-4 py-2 rounded-full bg-sky-500 hover:bg-opacity-80 transition text-white font-semibold'>
+              {/* <button className='px-4 py-2 rounded-full bg-rose-500 hover:bg-opacity-80 transition text-white font-semibold'>
                 Follow
               </button> */}
             </div>

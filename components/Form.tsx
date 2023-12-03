@@ -34,7 +34,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
       await axios.post(url, {
         body,
       });
-      toast.success('Tweet Created');
+      toast.success('Post Created');
       setBody('');
       mutatePosts();
       mutatePost();
@@ -62,7 +62,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
             <hr className='opacity-0 peer-focus:opacity-100 h-[1px] w-full border-neutral-800 transition' />
             <div className='mt-4 flex flex-row justify-end'>
               <Button
-                label='Tweet'
+                label='Post'
                 disabled={isLoading || !body}
                 onClick={onSubmit}
               />
@@ -72,7 +72,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
       ) : (
         <div className='py-8'>
           <h1 className='text-white text-2xl text-center mb-4 font-bold'>
-            Welcome to X
+            Welcome to AiutaConnect
           </h1>
           <div className='flex flex-row items-center justify-center gap-4'>
             <Button label='Login' onClick={loginModal.onOpen} />

@@ -9,7 +9,8 @@ const SidebarLogo = () => {
       onClick={() => router.push('/')}
       className='rounded-full h-14 w-14 p-4 flex items-center hover:Bg-blue-300 hover:bg-opacity-10 cursor-pointer transition'
     >
-      <BsTwitter size={28} color='white' />
+      {/* <BsTwitter size={28} color='white' /> */}
+      <span className='text-white text-2xl'>AiutaConnect</span>
     </div>
   );
 };
